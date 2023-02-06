@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+
+    <name>Simple virus scanner</name>
+    <creationDate>October 2022</creationDate>
+    <author>John Smith</author>
+    <copyright>Mikhail Belovolov</copyright>
+    <license>GPL v3</license>
+    <version>0.0.1</version>
+
+    <description>
+        Site scanner downloaded succesfully. Mikhail Belovolov graduate work.
+    </description>
+
+    <namespace path="src/">JohnSmith\Component\SimpleVirusScanner</namespace>
+            
+    <administration>
+        <menu link="index.php?option=com_simplevirusscanner">Site scanner</menu>
+        <files folder="admin/">
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+    </administration>
+ 
+</extension>
